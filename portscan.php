@@ -29,8 +29,8 @@ class Scan
 				array_push($r[$open], $p);
 				fclose($r[$con]);
 			} else {
-        array_push($r[$close],$p);
-      }
+        			array_push($r[$close],$p);
+      			}
 		}
 	}
 
